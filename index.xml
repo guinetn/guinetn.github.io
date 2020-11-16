@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Watt&#39;s</title>
+    <link>https://guinetn.github.io/</link>
+    <description>Recent content on Watt&#39;s</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>nguinet.pro@gmail.com (Nicolas Guinet)</managingEditor>
+    <webMaster>nguinet.pro@gmail.com (Nicolas Guinet)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 14 Nov 2020 19:07:13 +0100</lastBuildDate>
+    
+        <atom:link href="https://guinetn.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+
+      
+      <item>
+        <title>aop.cheatsheet</title>
+        <link>https://guinetn.github.io/cheatsheets/database/code/paradigm/aop.cheatsheet/</link>
+        <pubDate>Sat, 14 Nov 2020 19:07:13 +0100</pubDate>
+        <author>nguinet.pro@gmail.com (Nicolas Guinet)</author>
+        <atom:modified>Sat, 14 Nov 2020 19:07:13 +0100</atom:modified>
+        <guid>https://guinetn.github.io/cheatsheets/database/code/paradigm/aop.cheatsheet/</guid>
+        <description>#-#
+#-# Pointcut
+#-#
+A pointcut is a program element that picks out join points and exposes data from the execution context of those join points. Pointcuts are used primarily by advice. They can be composed with boolean operators to build up other pointcuts.  any type and number of args ─┐method ─┐ │class ─┐ │ ││ │ │ @Pointcut(&amp;ldquo;execution(public * com.demo..(..))&amp;quot;)
+│ │ │
+│ │ └─ any return type</description>
+        
+        <dc:creator>Nicolas Guinet</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>asciiart.cheatsheet</title>
+        <link>https://guinetn.github.io/cheatsheets/database/misc/asciiart.cheatsheet/</link>
+        <pubDate>Sat, 14 Nov 2020 19:07:13 +0100</pubDate>
+        <author>nguinet.pro@gmail.com (Nicolas Guinet)</author>
+        <atom:modified>Sat, 14 Nov 2020 19:07:13 +0100</atom:modified>
+        <guid>https://guinetn.github.io/cheatsheets/database/misc/asciiart.cheatsheet/</guid>
+        <description>#-#
+#-# Source code comments
+#-#
+Parameter dezambiguation ┌─ execute with superuser rights
+│ ┌─ change file mode
+│ │ ┌─ path to file
+sudo chmod a+rx file
+│ │└─ execution right
+│ └─ read right
+└─ all users
+#-#
+#-# Command line display
+#-#
+Statuses [?] - unknown
+[✔] - success
+[✖] - failure
+Directory tree root
+├── CVS
+│ ├── Entries
+│ ├── Repository
+│ └── Root
+├── Makefile</description>
+        
+        <dc:creator>Nicolas Guinet</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>assembler.cheatsheet</title>
+        <link>https://guinetn.github.io/cheatsheets/database/code/language/assembler.cheatsheet/</link>
+        <pubDate>Sat, 14 Nov 2020 19:07:13 +0100</pubDate>
+        <author>nguinet.pro@gmail.com (Nicolas Guinet)</author>
+        <atom:modified>Sat, 14 Nov 2020 19:07:13 +0100</atom:modified>
+        <guid>https://guinetn.github.io/cheatsheets/database/code/language/assembler.cheatsheet/</guid>
+        <description>#-#
+#-# Operations
+#-#
+#-# Transfer
+Name Comment Code Operation O D I T S Z A P C
+MOV Move (copy) MOV dest,source dest:=source . . . . . . . . .
+XCHG Exchange XCHG op1,op2 op1:=op2, op2:=op1 . . . . . . . . .
+STC Set carry STC CF:=1 . . . . . . . . 1
+CLC Clear carry CLC CF:=0 . . .</description>
+        
+        <dc:creator>Nicolas Guinet</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>bash.cheatsheet</title>
+        <link>https://guinetn.github.io/cheatsheets/database/code/language/bash.cheatsheet/</link>
+        <pubDate>Sat, 14 Nov 2020 19:07:13 +0100</pubDate>
+        <author>nguinet.pro@gmail.com (Nicolas Guinet)</author>
+        <atom:modified>Sat, 14 Nov 2020 19:07:13 +0100</atom:modified>
+        <guid>https://guinetn.github.io/cheatsheets/database/code/language/bash.cheatsheet/</guid>
+        <description>#-#
+#-# Variables
+#-#
+#-# String manipulation
+Command Description
+${varname:-word} If varname exists and isn&amp;rsquo;t null, return its value; otherwise return word
+${varname:=word} If varname exists and isn&amp;rsquo;t null, return its value; otherwise set it word and then return its value
+${varname:?message} If varname exists and isn&amp;rsquo;t null, return its value; otherwise print varname, followed by message and abort the current command or script
+${varname:+word} If varname exists and isn&amp;rsquo;t null, return word; otherwise return null</description>
+        
+        <dc:creator>Nicolas Guinet</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>big-o-complexity.cheatsheet</title>
+        <link>https://guinetn.github.io/cheatsheets/database/code/big-o-complexity.cheatsheet/</link>
+        <pubDate>Sat, 14 Nov 2020 19:07:13 +0100</pubDate>
+        <author>nguinet.pro@gmail.com (Nicolas Guinet)</author>
+        <atom:modified>Sat, 14 Nov 2020 19:07:13 +0100</atom:modified>
+        <guid>https://guinetn.github.io/cheatsheets/database/code/big-o-complexity.cheatsheet/</guid>
+        <description>#-#
+#-# Big-O complexities for common algorithms
+#-#
+#-# Data Structure Operations
+Data Structure Time Complexity Space Complexity  Average Worst Worst------- ----- -----Access Search Insertion Deletion Access Search Insertion Deletion------ ------ --------- -------- ------ ------ --------- -------- Array O(1) O(n) O(n) O(n) O(1) O(n) O(n) O(n) O(n)
+Stack O(n) O(n) O(1) O(1) O(n) O(n) O(1) O(1) O(n)
+Singly-Linked List O(n) O(n) O(1) O(1) O(n) O(n) O(1) O(1) O(n)</description>
+        
+        <dc:creator>Nicolas Guinet</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>cmd.cheatsheet</title>
+        <link>https://guinetn.github.io/cheatsheets/database/code/language/cmd.cheatsheet/</link>
+        <pubDate>Sat, 14 Nov 2020 19:07:13 +0100</pubDate>
+        <author>nguinet.pro@gmail.com (Nicolas Guinet)</author>
+        <atom:modified>Sat, 14 Nov 2020 19:07:13 +0100</atom:modified>
+        <guid>https://guinetn.github.io/cheatsheets/database/code/language/cmd.cheatsheet/</guid>
+        <description>#-#
+#-# Filesystem
+#-#
+mklink /j source destination</description>
+        
+        <dc:creator>Nicolas Guinet</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>css.cheatsheet</title>
+        <link>https://guinetn.github.io/cheatsheets/database/code/language/css.cheatsheet/</link>
+        <pubDate>Sat, 14 Nov 2020 19:07:13 +0100</pubDate>
+        <author>nguinet.pro@gmail.com (Nicolas Guinet)</author>
+        <atom:modified>Sat, 14 Nov 2020 19:07:13 +0100</atom:modified>
+        <guid>https://guinetn.github.io/cheatsheets/database/code/language/css.cheatsheet/</guid>
+        <description>#-#
+#-# Box Model
+#-#
+┌───────────────────────────────────────────┐
+│ │
+│ ┌───────────────────────────────────┐ │
+│ │ │ │
+│ │ ┌───────────────────────────┐ │ │
+│ │ │ padding ──┼───┼───┼── Clears an area around the content.
+│ │ │ ┌───────────────────┐ │ │ │ The padding is transparent.
+│ │ │ │ │ │ │ │
+│ │ │ │ content ────┼───┼───┼───┼── The content of the box,
+│ │ │ │ │ │ │ │ where text and images appear.</description>
+        
+        <dc:creator>Nicolas Guinet</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>eclipse.cheatsheet</title>
+        <link>https://guinetn.github.io/cheatsheets/database/ide/eclipse.cheatsheet/</link>
+        <pubDate>Sat, 14 Nov 2020 19:07:13 +0100</pubDate>
+        <author>nguinet.pro@gmail.com (Nicolas Guinet)</author>
+        <atom:modified>Sat, 14 Nov 2020 19:07:13 +0100</atom:modified>
+        <guid>https://guinetn.github.io/cheatsheets/database/ide/eclipse.cheatsheet/</guid>
+        <description>#-#
+#-# Keyboard shortcuts
+#-#
+#-# Debugging
+Windows OS X Shortcut
+F5 F5 Step Into
+F6 F6 Step Over
+F7 F7 Step Return
+F8 F8 Resume
+F11 F11 Debug Last Launched
+Ctrl+F11 Cmd+F11 Run Last Launched
+Ctrl+R Cmd+R Run to Line
+Ctrl+Shift+B Cmd+Shift+B Toggle Breakpoint on Line
+#-# Navigation
+Windows OS X Shortcut
+F3 F3 Format Source
+Ctrl+Shift+G Cmd+Shift+G Find Reference
+Ctrl+Shift+R Cmd+Shift+R Open Resource
+Ctrl+Shift+T Cmd+Shift+T Open Type
+Ctrl+H Cmd+H Open Search Dialog</description>
+        
+        <dc:creator>Nicolas Guinet</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>freemarker.cheatsheet</title>
+        <link>https://guinetn.github.io/cheatsheets/database/code/language/freemarker.cheatsheet/</link>
+        <pubDate>Sat, 14 Nov 2020 19:07:13 +0100</pubDate>
+        <author>nguinet.pro@gmail.com (Nicolas Guinet)</author>
+        <atom:modified>Sat, 14 Nov 2020 19:07:13 +0100</atom:modified>
+        <guid>https://guinetn.github.io/cheatsheets/database/code/language/freemarker.cheatsheet/</guid>
+        <description>#-#
+#-# Directives
+#-#
+#-# Strings
+Directive Description
+boolean Converts string to boolean (true, false).
+cap_first Capita­lizes first word of string.
+capitalize Capita­lizes every word in string properly.
+chop_l­ine­break Removes line-break from end of string.
+contains (subst­ring) Checks if string contains substring.
+date, time, datetime Converts string to date/t­ime­/da­tetime based on *_format.
+ends_with (subst­ring) Checks if string ends with substring.
+ensure­_en­ds_with (subst­ring) Returns string with substring appended if not already there.</description>
+        
+        <dc:creator>Nicolas Guinet</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>git.cheatsheet</title>
+        <link>https://guinetn.github.io/cheatsheets/database/tools/version-control/git.cheatsheet/</link>
+        <pubDate>Sat, 14 Nov 2020 19:07:13 +0100</pubDate>
+        <author>nguinet.pro@gmail.com (Nicolas Guinet)</author>
+        <atom:modified>Sat, 14 Nov 2020 19:07:13 +0100</atom:modified>
+        <guid>https://guinetn.github.io/cheatsheets/database/tools/version-control/git.cheatsheet/</guid>
+        <description>#-#
+#-# Configuration
+#-#
+Define the author name to be used for all commits by the current user. git config &amp;ndash;global user.name 
+Define the author email to be used for all commits by the current user. git config &amp;ndash;global user.email 
+Create shortcut for a Git command. E.g. alias.glog &amp;ldquo;log &amp;ndash;graph &amp;ndash;oneline&amp;rdquo; will set &amp;ldquo;git glog&amp;rdquo; equivalent to &amp;ldquo;git log &amp;ndash;graph &amp;ndash;oneline&amp;rdquo; git config &amp;ndash;global alias. 
+Set text editor used by commands for all users on the machine.</description>
+        
+        <dc:creator>Nicolas Guinet</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>gradle.cheatsheet</title>
+        <link>https://guinetn.github.io/cheatsheets/database/tools/build-automation/gradle.cheatsheet/</link>
+        <pubDate>Sat, 14 Nov 2020 19:07:13 +0100</pubDate>
+        <author>nguinet.pro@gmail.com (Nicolas Guinet)</author>
+        <atom:modified>Sat, 14 Nov 2020 19:07:13 +0100</atom:modified>
+        <guid>https://guinetn.github.io/cheatsheets/database/tools/build-automation/gradle.cheatsheet/</guid>
+        <description>#-#
+#-# Command line
+#-#
+gradle [option&amp;hellip;] [task&amp;hellip;]
+#-# Options
+Option Description
+-?, -h, &amp;ndash;help Shows a help message.
+-a, &amp;ndash;no-rebuild Do not rebuild project dependencies.
+&amp;ndash;all Shows additional detail in the task listing.
+-b, &amp;ndash;build-file Specifies the build file.
+-c, &amp;ndash;settings-file Specifies the settings file.
+&amp;ndash;console Specifies which type of console output to generate (plain/auto/rich).
+&amp;ndash;continue Continues task execution after a task failure.
+&amp;ndash;configure-on-demand Only relevant projects are configured in this build run.</description>
+        
+        <dc:creator>Nicolas Guinet</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>groovy.cheatsheet</title>
+        <link>https://guinetn.github.io/cheatsheets/database/code/language/groovy.cheatsheet/</link>
+        <pubDate>Sat, 14 Nov 2020 19:07:13 +0100</pubDate>
+        <author>nguinet.pro@gmail.com (Nicolas Guinet)</author>
+        <atom:modified>Sat, 14 Nov 2020 19:07:13 +0100</atom:modified>
+        <guid>https://guinetn.github.io/cheatsheets/database/code/language/groovy.cheatsheet/</guid>
+        <description>#-#
+#-# Variables
+#-#
+def x = 1
+println x
+x = new java.util.Date()
+println x
+x = -3.1499392
+println x
+x = false
+println x
+x = &amp;ldquo;Groovy!&amp;rdquo;
+println x
+#-#
+#-# Collections
+#-#
+Creating an empty list def technologies = []
+Adding elements to the list technologies.add(&amp;ldquo;Grails&amp;rdquo;)
+technologies &amp;laquo; &amp;ldquo;Groovy&amp;rdquo; // Left shift adds, and returns the list
+technologies.addAll([&amp;ldquo;Gradle&amp;rdquo;,&amp;ldquo;Griffon&amp;rdquo;])
+Removing elements from the list technologies.remove(&amp;ldquo;Griffon&amp;rdquo;)
+technologies = technologies - &amp;lsquo;Grails&amp;rsquo;</description>
+        
+        <dc:creator>Nicolas Guinet</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>hadoop.cheatsheet</title>
+        <link>https://guinetn.github.io/cheatsheets/database/server/hadoop.cheatsheet/</link>
+        <pubDate>Sat, 14 Nov 2020 19:07:13 +0100</pubDate>
+        <author>nguinet.pro@gmail.com (Nicolas Guinet)</author>
+        <atom:modified>Sat, 14 Nov 2020 19:07:13 +0100</atom:modified>
+        <guid>https://guinetn.github.io/cheatsheets/database/server/hadoop.cheatsheet/</guid>
+        <description>#-#
+#-# Command line
+#-#
+#-# Namenode
+Command Description
+hadoop namenode -format Format HDFS filesystem from Namenode.
+hadoop namenode -upgrade Upgrade the NameNode.
+start-dfs.sh Start HDFS Daemons.
+stop-dfs.sh Stop HDFS Daemons.
+start-mapred.sh Start MapReduce Daemons.
+stop-mapred.sh Stop MapReduce Daemons.
+hadoop namenode -recover -force Recover namenode metadata after a cluster failure (may lose data).
+#-# Health
+Command Description
+hadoop fsck / Filesystem check on HDFS.
+hadoop fsck / -files Display files during check.</description>
+        
+        <dc:creator>Nicolas Guinet</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>http.cheatsheet</title>
+        <link>https://guinetn.github.io/cheatsheets/database/server/protocol/http.cheatsheet/</link>
+        <pubDate>Sat, 14 Nov 2020 19:07:13 +0100</pubDate>
+        <author>nguinet.pro@gmail.com (Nicolas Guinet)</author>
+        <atom:modified>Sat, 14 Nov 2020 19:07:13 +0100</atom:modified>
+        <guid>https://guinetn.github.io/cheatsheets/database/server/protocol/http.cheatsheet/</guid>
+        <description>#-#
+#-# Headers
+#-#
+#-# Request headers
+Field Example Description
+Accept Accept: text/html Acceptable Content-Types for the response.
+Accept-Charset Accept-Charset: utf-8 Acceptable character sets.
+Accept-Encoding Accept-Encoding: gzip, deflate Acceptable encodings (for compression).
+Accept-Language Accept-Language: en-US Acceptable human langages.
+Accept-Datetime Accept-Datetime: Fri, 21 Dec 2012 06:06:06 GMT Acceptable time of last update.
+Authorization Authorization: Basic YnJvOmhvbmVzdGx5 HTTP authentication credentials.
+Cache-Control Cache-Control: no-cache Directives which caching mechanisms must obey.
+Connection Connection: keep-alive Type of preffered connection for the client.</description>
+        
+        <dc:creator>Nicolas Guinet</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>hystrix.cheatsheet</title>
+        <link>https://guinetn.github.io/cheatsheets/database/code/library/hystrix.cheatsheet/</link>
+        <pubDate>Sat, 14 Nov 2020 19:07:13 +0100</pubDate>
+        <author>nguinet.pro@gmail.com (Nicolas Guinet)</author>
+        <atom:modified>Sat, 14 Nov 2020 19:07:13 +0100</atom:modified>
+        <guid>https://guinetn.github.io/cheatsheets/database/code/library/hystrix.cheatsheet/</guid>
+        <description>#-#
+#-# Annotations
+#-#
+#-# @HystrixCollapser
+Property Default Description
+collapserKey Name of annotated method Specifies a collapser key.
+batchMethod - Method name of batch command which must have the following signature: java.util.List method(java.util.List).
+scope Scope.REQUEST Defines what scope the collapsing should occur within.
+collapserProperties {} Specifies collapser properties.
+#-# @HystrixCommand
+Property Default Description
+groupKey Class name of annotated method Used for grouping together commands such as for reporting, alerting, etc.</description>
+        
+        <dc:creator>Nicolas Guinet</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>irssi.cheatsheet</title>
+        <link>https://guinetn.github.io/cheatsheets/database/chat/irssi.cheatsheet/</link>
+        <pubDate>Sat, 14 Nov 2020 19:07:13 +0100</pubDate>
+        <author>nguinet.pro@gmail.com (Nicolas Guinet)</author>
+        <atom:modified>Sat, 14 Nov 2020 19:07:13 +0100</atom:modified>
+        <guid>https://guinetn.github.io/cheatsheets/database/chat/irssi.cheatsheet/</guid>
+        <description>#-#
+#-# Nick
+#-#
+Register current nickname. /msg nickserv register  you@example.com
+Indent your nickname. /msg nickserv identify 
+Set current nickname. /nick vrachieru
+#-#
+#-# Networks / Servers
+#-#
+Bind nickname with network. /network add -nick  
+Connect to the network. /connect 
+List networks. /network list
+Bind server with network. /server add -auto -network   
+List servers. /server list
+#-#
+#-# Channels
+#-#
+Join to a channel.</description>
+        
+        <dc:creator>Nicolas Guinet</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>jira.cheatsheet</title>
+        <link>https://guinetn.github.io/cheatsheets/database/tools/issue-tracking/jira.cheatsheet/</link>
+        <pubDate>Sat, 14 Nov 2020 19:07:13 +0100</pubDate>
+        <author>nguinet.pro@gmail.com (Nicolas Guinet)</author>
+        <atom:modified>Sat, 14 Nov 2020 19:07:13 +0100</atom:modified>
+        <guid>https://guinetn.github.io/cheatsheets/database/tools/issue-tracking/jira.cheatsheet/</guid>
+        <description>#-#
+#-# Keyboard shortcuts
+#-#
+#-# Global
+Shortcut Description
+gd Go to Dashboard
+gp Browse to a Project
+ga Go to Agile
+gi Find Issues
+gg Administration Quick Search
+/ Quick Search
+. Quick Operations
+c Create an Issue
+Alt+Ctrl+s Form Submit
+#-# Navigation
+Shortcut Description
+o View selected Issue
+j Next Issue
+k Previous Issue
+[ Dock/Undock the Filters Panel
+n Next Activity
+p Previous Activity
+f Focus search field</description>
+        
+        <dc:creator>Nicolas Guinet</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>markdown.cheatsheet</title>
+        <link>https://guinetn.github.io/cheatsheets/database/code/language/markdown.cheatsheet/</link>
+        <pubDate>Sat, 14 Nov 2020 19:07:13 +0100</pubDate>
+        <author>nguinet.pro@gmail.com (Nicolas Guinet)</author>
+        <atom:modified>Sat, 14 Nov 2020 19:07:13 +0100</atom:modified>
+        <guid>https://guinetn.github.io/cheatsheets/database/code/language/markdown.cheatsheet/</guid>
+        <description>#-#
+#-# Headers
+#-#
+h1 h3 Header 1 Header 2 #-#
+#-# Links
+#-#
+link
+[link][google]
+[google]: http://google.com
+http://google.com
+#-#
+#-# Images
+#-#
+#-#
+#-# Emphasis
+#-#
+italic
+italic
+bold
+bold
+#-#
+#-# Code
+#-#
+4 space indent Blockquotes
+ This is
+a blockquote
+ Nested
+Blockquote
+  #-#
+#-# Horizontal line
+#-# </description>
+        
+        <dc:creator>Nicolas Guinet</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>maven.cheatsheet</title>
+        <link>https://guinetn.github.io/cheatsheets/database/tools/build-automation/maven.cheatsheet/</link>
+        <pubDate>Sat, 14 Nov 2020 19:07:13 +0100</pubDate>
+        <author>nguinet.pro@gmail.com (Nicolas Guinet)</author>
+        <atom:modified>Sat, 14 Nov 2020 19:07:13 +0100</atom:modified>
+        <guid>https://guinetn.github.io/cheatsheets/database/tools/build-automation/maven.cheatsheet/</guid>
+        <description>#-#
+#-# Commands
+#-#
+#-# General command structure
+mvn -P  
+#-# Simple stuff
+mvn help
+mvn compile
+mvn validate
+mvn verify
+mvn test
+mvn clean
+mvn clean package
+mvn clean install
+mvn clean deploy
+#-#
+#-# Dependencies
+#-#
+#-# Scope
+Scope Description
+compile Compile dependencies are available in all classpaths of a project and are propagated to dependent projects. (default)
+provided Similar to compile, but indicates you expect the JDK or a container to provide the dependency at runtime.</description>
+        
+        <dc:creator>Nicolas Guinet</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>sc #1</title>
+        <link>https://guinetn.github.io/science/welcome/</link>
+        <pubDate>Sat, 14 Nov 2020 19:07:13 +0100</pubDate>
+        <author>nguinet.pro@gmail.com (Nicolas Guinet)</author>
+        <atom:modified>Sat, 14 Nov 2020 19:07:13 +0100</atom:modified>
+        <guid>https://guinetn.github.io/science/welcome/</guid>
+        <description>welcome to science #1</description>
+        
+        <dc:creator>Nicolas Guinet</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>skype.cheatsheet</title>
+        <link>https://guinetn.github.io/cheatsheets/database/chat/skype.cheatsheet/</link>
+        <pubDate>Sat, 14 Nov 2020 19:07:13 +0100</pubDate>
+        <author>nguinet.pro@gmail.com (Nicolas Guinet)</author>
+        <atom:modified>Sat, 14 Nov 2020 19:07:13 +0100</atom:modified>
+        <guid>https://guinetn.github.io/cheatsheets/database/chat/skype.cheatsheet/</guid>
+        <description>#-#
+#-# Chat types
+#-#
+To find out what type of chat you&amp;rsquo;re in, simply type /get name into the chat window and press Enter.
+Type Starts with
+cloud-based 19:&amp;hellip;
+p2p-based #skypename&amp;hellip;
+#-#
+#-# Cloud-based commands and roles
+#-#
+Role Description
+Admin Also known as chat hosts/masters. Admins can promote other people to admins.
+Speaker A member who can post messages into the chat and participate in calls.
+Command Description</description>
+        
+        <dc:creator>Nicolas Guinet</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>tmux.cheatsheet</title>
+        <link>https://guinetn.github.io/cheatsheets/database/tools/terminal/tmux.cheatsheet/</link>
+        <pubDate>Sat, 14 Nov 2020 19:07:13 +0100</pubDate>
+        <author>nguinet.pro@gmail.com (Nicolas Guinet)</author>
+        <atom:modified>Sat, 14 Nov 2020 19:07:13 +0100</atom:modified>
+        <guid>https://guinetn.github.io/cheatsheets/database/tools/terminal/tmux.cheatsheet/</guid>
+        <description>#-#
+#-# Actions
+#-#
+KeyBind + Combination Key Description
+Ctrl+b % Split the current window vertically into two panes.
+Ctrl+b :split-window Horizontally split window or current pane.
+Ctrl+b o Switch to the next pane.
+Ctrl+b c Open new window.
+Ctrl+b l Move to previous window.
+Ctrl+b n Move to next window.
+Ctrl+b p Move to previous window.
+Ctrl+b d Detach current client.
+Ctrl+b x Kill the current pane.
+Ctrl+b &amp;amp; Kill the current window.</description>
+        
+        <dc:creator>Nicolas Guinet</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>ubuntu.cheatsheet</title>
+        <link>https://guinetn.github.io/cheatsheets/database/os/ubuntu.cheatsheet/</link>
+        <pubDate>Sat, 14 Nov 2020 19:07:13 +0100</pubDate>
+        <author>nguinet.pro@gmail.com (Nicolas Guinet)</author>
+        <atom:modified>Sat, 14 Nov 2020 19:07:13 +0100</atom:modified>
+        <guid>https://guinetn.github.io/cheatsheets/database/os/ubuntu.cheatsheet/</guid>
+        <description>#-#
+#-# Keyboard shortcuts
+#-#
+#-# Gnome
+Shortcut Description
+Ctrl+Alt+F1 Switch to the first virtual terminal.
+Ctrl+Alt+F[2..6] Select the different virtual terminals.
+Ctrl+Alt+F7 Restore back to the current terminal session with X.
+Ctrl+Alt+Backspace Restart GNOME.
+Alt+Tab Switch between open programs.
+Ctrl+Alt+L Lock the screen.
+Alt+F1 Open the Applications menu.
+Alt+F2 Open the Run Application dialog box.
+Alt+F3 Open the Deskbar Applet.
+Alt+F4 Close the current window.
+Alt+F5 Unmaximize the current window.</description>
+        
+        <dc:creator>Nicolas Guinet</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>vim.cheatsheet</title>
+        <link>https://guinetn.github.io/cheatsheets/database/ide/vim.cheatsheet/</link>
+        <pubDate>Sat, 14 Nov 2020 19:07:13 +0100</pubDate>
+        <author>nguinet.pro@gmail.com (Nicolas Guinet)</author>
+        <atom:modified>Sat, 14 Nov 2020 19:07:13 +0100</atom:modified>
+        <guid>https://guinetn.github.io/cheatsheets/database/ide/vim.cheatsheet/</guid>
+        <description>#-#
+#-# Cursor movement
+#-#
+Command Description
+h or ← move cursor left
+j or ↓ move cursor down
+k or → move cursor up
+l or ↑ move cursor right
+w jump forwards to the start of a word
+W jump forwards to the start of a word (words can contain punctuation)
+e jump forwards to the end of a word
+E jump forwards to the end of a word (words can contain punctuation)</description>
+        
+        <dc:creator>Nicolas Guinet</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Welcome</title>
+        <link>https://guinetn.github.io/posts/welcome-copy/</link>
+        <pubDate>Sat, 14 Nov 2020 19:07:13 +0100</pubDate>
+        <author>nguinet.pro@gmail.com (Nicolas Guinet)</author>
+        <atom:modified>Sat, 14 Nov 2020 19:07:13 +0100</atom:modified>
+        <guid>https://guinetn.github.io/posts/welcome-copy/</guid>
+        <description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quae vitae quia id et impedit sapiente accusantium modi soluta nemo delectus iste quis corrupti dolores quisquam fuga, eius totam! Enim.
+Cumque ipsam quae, ut repudiandae alias dicta reprehenderit, labore suscipit, tempore possimus esse odio at! Nobis, unde. Adipisci, est? Laborum fugit tempore quo id cupiditate nulla. Qui earum eos velit!
+Alias impedit doloremque aspernatur velit dolorem iusto consectetur perferendis pariatur, nobis praesentium neque voluptate laborum placeat accusantium quae?</description>
+        
+        <dc:creator>Nicolas Guinet</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Welcome</title>
+        <link>https://guinetn.github.io/posts/welcome/</link>
+        <pubDate>Sat, 14 Nov 2020 19:07:13 +0100</pubDate>
+        <author>nguinet.pro@gmail.com (Nicolas Guinet)</author>
+        <atom:modified>Sat, 14 Nov 2020 19:07:13 +0100</atom:modified>
+        <guid>https://guinetn.github.io/posts/welcome/</guid>
+        <description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quae vitae quia id et impedit sapiente accusantium modi soluta nemo delectus iste quis corrupti dolores quisquam fuga, eius totam! Enim.
+Cumque ipsam quae, ut repudiandae alias dicta reprehenderit, labore suscipit, tempore possimus esse odio at! Nobis, unde. Adipisci, est? Laborum fugit tempore quo id cupiditate nulla. Qui earum eos velit!
+Alias impedit doloremque aspernatur velit dolorem iusto consectetur perferendis pariatur, nobis praesentium neque voluptate laborum placeat accusantium quae?</description>
+        
+        <dc:creator>Nicolas Guinet</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>yaml.cheatsheet</title>
+        <link>https://guinetn.github.io/cheatsheets/database/code/language/yaml.cheatsheet/</link>
+        <pubDate>Sat, 14 Nov 2020 19:07:13 +0100</pubDate>
+        <author>nguinet.pro@gmail.com (Nicolas Guinet)</author>
+        <atom:modified>Sat, 14 Nov 2020 19:07:13 +0100</atom:modified>
+        <guid>https://guinetn.github.io/cheatsheets/database/code/language/yaml.cheatsheet/</guid>
+        <description>#-# Collection indicators
+&amp;lsquo;? &#39; : Key indicator.
+&amp;lsquo;: &#39; : Value indicator.
+&amp;lsquo;- &#39; : Nested series entry indicator.
+&amp;lsquo;, &#39; : Separate in-line branch entries.
+&amp;lsquo;[]&amp;rsquo; : Surround in-line series branch.
+&amp;lsquo;{}&amp;rsquo; : Surround in-line keyed branch.
+#-# Scalar indicators
+&#39;&amp;rsquo;&amp;rsquo;&amp;rsquo; : Surround in-line unescaped scalar (&amp;rsquo;&#39; escaped &amp;lsquo;).
+&amp;lsquo;&amp;quot;&amp;rsquo; : Surround in-line escaped scalar (see escape codes below).
+&amp;lsquo;|&amp;rsquo; : Block scalar indicator.
+&amp;lsquo;&amp;gt;&amp;rsquo; : Folded scalar indicator.</description>
+        
+        <dc:creator>Nicolas Guinet</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://guinetn.github.io/cheatsheets/database/local/readme/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>nguinet.pro@gmail.com (Nicolas Guinet)</author>
+        
+        <guid>https://guinetn.github.io/cheatsheets/database/local/readme/</guid>
+        <description>This category would contain cheatsheets that cannot be made public.</description>
+        
+        <dc:creator>Nicolas Guinet</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Posts on Watt&#39;s</title>
+    <link>https://guinetn.github.io/posts/</link>
+    <description>Recent content in Posts on Watt&#39;s</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>nguinet.pro@gmail.com (Nicolas Guinet)</managingEditor>
+    <webMaster>nguinet.pro@gmail.com (Nicolas Guinet)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 14 Nov 2020 19:07:13 +0100</lastBuildDate>
+    
+        <atom:link href="https://guinetn.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>Welcome</title>
+        <link>https://guinetn.github.io/posts/welcome-copy/</link>
+        <pubDate>Sat, 14 Nov 2020 19:07:13 +0100</pubDate>
+        <author>nguinet.pro@gmail.com (Nicolas Guinet)</author>
+        <atom:modified>Sat, 14 Nov 2020 19:07:13 +0100</atom:modified>
+        <guid>https://guinetn.github.io/posts/welcome-copy/</guid>
+        <description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quae vitae quia id et impedit sapiente accusantium modi soluta nemo delectus iste quis corrupti dolores quisquam fuga, eius totam! Enim.
+Cumque ipsam quae, ut repudiandae alias dicta reprehenderit, labore suscipit, tempore possimus esse odio at! Nobis, unde. Adipisci, est? Laborum fugit tempore quo id cupiditate nulla. Qui earum eos velit!
+Alias impedit doloremque aspernatur velit dolorem iusto consectetur perferendis pariatur, nobis praesentium neque voluptate laborum placeat accusantium quae?</description>
+        
+        <dc:creator>Nicolas Guinet</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Welcome</title>
+        <link>https://guinetn.github.io/posts/welcome/</link>
+        <pubDate>Sat, 14 Nov 2020 19:07:13 +0100</pubDate>
+        <author>nguinet.pro@gmail.com (Nicolas Guinet)</author>
+        <atom:modified>Sat, 14 Nov 2020 19:07:13 +0100</atom:modified>
+        <guid>https://guinetn.github.io/posts/welcome/</guid>
+        <description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quae vitae quia id et impedit sapiente accusantium modi soluta nemo delectus iste quis corrupti dolores quisquam fuga, eius totam! Enim.
+Cumque ipsam quae, ut repudiandae alias dicta reprehenderit, labore suscipit, tempore possimus esse odio at! Nobis, unde. Adipisci, est? Laborum fugit tempore quo id cupiditate nulla. Qui earum eos velit!
+Alias impedit doloremque aspernatur velit dolorem iusto consectetur perferendis pariatur, nobis praesentium neque voluptate laborum placeat accusantium quae?</description>
+        
+        <dc:creator>Nicolas Guinet</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
