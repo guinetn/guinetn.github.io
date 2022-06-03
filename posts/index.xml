@@ -14,13 +14,42 @@
     <managingEditor>nguinet.pro@gmail.com (Nicolas Guinet)</managingEditor>
     <webMaster>nguinet.pro@gmail.com (Nicolas Guinet)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 14 Nov 2020 19:07:13 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jun 2022 19:07:13 +0100</lastBuildDate>
     
         <atom:link href="https://guinetn.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>About rust lang</title>
+        <link>https://guinetn.github.io/posts/rust/</link>
+        <pubDate>Fri, 03 Jun 2022 19:07:13 +0100</pubDate>
+        <author>nguinet.pro@gmail.com (Nicolas Guinet)</author>
+        <atom:modified>Fri, 03 Jun 2022 19:07:13 +0100</atom:modified>
+        <guid>https://guinetn.github.io/posts/rust/</guid>
+        <description>Rust Open-source language; 6000 contributors. MIT and Apache License
+https://doc.rust-lang.org https://play.rust-lang.org 1 2 3 fn main() { println!(&amp;#34;Hello!&amp;#34;); } rustc main.rs // create main.exe
+main.exe
+Creating projects:
+cargo new hello
+structure created: /src/main.rs /.toml (dependencies), /.gitignore
+cargo run
+cargo run build
+Focuses to be safe, secure, concurrent with combination of
+Static typing: prevent errors at compile time
+compiler is very strict: reliable and have fewer bugs
+it catches a lot of errors that would normally go unnoticed: no never used variable possible Dynamic typing: flexibility and easier refactoring Ownership and borrowing: ensure that data is accessed safely and efficiently Modern syntax and design, a mixture of assembler and a functional programming language, and it looks very strange to the uninitiated.</description>
+        
+        <dc:creator>Nicolas Guinet</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>Welcome</title>

@@ -32,7 +32,7 @@
         <description>#-#
 #-# Pointcut
 #-#
-A pointcut is a program element that picks out join points and exposes data from the execution context of those join points. Pointcuts are used primarily by advice. They can be composed with boolean operators to build up other pointcuts.  any type and number of args ─┐method ─┐ │class ─┐ │ ││ │ │ @Pointcut(&amp;ldquo;execution(public * com.demo..(..))&amp;quot;)
+A pointcut is a program element that picks out join points and exposes data from the execution context of those join points. Pointcuts are used primarily by advice. They can be composed with boolean operators to build up other pointcuts. any type and number of args ─┐method ─┐ │class ─┐ │ ││ │ │@Pointcut(&amp;ldquo;execution(public * com.demo..(..))&amp;rdquo;)
 │ │ │
 │ │ └─ any return type</description>
         
@@ -147,7 +147,7 @@ ${varname:+word} If varname exists and isn&amp;rsquo;t null, return word; otherw
 #-# Big-O complexities for common algorithms
 #-#
 #-# Data Structure Operations
-Data Structure Time Complexity Space Complexity  Average Worst Worst------- ----- -----Access Search Insertion Deletion Access Search Insertion Deletion------ ------ --------- -------- ------ ------ --------- -------- Array O(1) O(n) O(n) O(n) O(1) O(n) O(n) O(n) O(n)
+Data Structure Time Complexity Space Complexity Average Worst Worst------- ----- -----Access Search Insertion Deletion Access Search Insertion Deletion------ ------ --------- -------- ------ ------ --------- --------Array O(1) O(n) O(n) O(n) O(1) O(n) O(n) O(n) O(n)
 Stack O(n) O(n) O(1) O(1) O(n) O(n) O(1) O(1) O(n)
 Singly-Linked List O(n) O(n) O(1) O(1) O(n) O(n) O(1) O(1) O(n)</description>
         
@@ -288,10 +288,7 @@ ensure­_en­ds_with (subst­ring) Returns string with substring appended if not
         <description>#-#
 #-# Configuration
 #-#
-Define the author name to be used for all commits by the current user. git config &amp;ndash;global user.name 
-Define the author email to be used for all commits by the current user. git config &amp;ndash;global user.email 
-Create shortcut for a Git command. E.g. alias.glog &amp;ldquo;log &amp;ndash;graph &amp;ndash;oneline&amp;rdquo; will set &amp;ldquo;git glog&amp;rdquo; equivalent to &amp;ldquo;git log &amp;ndash;graph &amp;ndash;oneline&amp;rdquo; git config &amp;ndash;global alias. 
-Set text editor used by commands for all users on the machine.</description>
+Define the author name to be used for all commits by the current user. git config &amp;ndash;global user.name Define the author email to be used for all commits by the current user. git config &amp;ndash;global user.email Create shortcut for a Git command. E.g. alias.glog &amp;ldquo;log &amp;ndash;graph &amp;ndash;oneline&amp;rdquo; will set &amp;ldquo;git glog&amp;rdquo; equivalent to &amp;ldquo;git log &amp;ndash;graph &amp;ndash;oneline&amp;rdquo; git config &amp;ndash;global alias. Set text editor used by commands for all users on the machine.</description>
         
         <dc:creator>Nicolas Guinet</dc:creator>
         
@@ -474,21 +471,18 @@ groupKey Class name of annotated method Used for grouping together commands such
         <description>#-#
 #-# Nick
 #-#
-Register current nickname. /msg nickserv register  you@example.com
-Indent your nickname. /msg nickserv identify 
-Set current nickname. /nick vrachieru
+Register current nickname. /msg nickserv register you@example.com
+Indent your nickname. /msg nickserv identify Set current nickname. /nick vrachieru
 #-#
 #-# Networks / Servers
 #-#
-Bind nickname with network. /network add -nick  
-Connect to the network. /connect 
-List networks. /network list
-Bind server with network. /server add -auto -network   
-List servers. /server list
+Bind nickname with network. /network add -nick Connect to the network. /connect List networks. /network list
+Bind server with network. /server add -auto -network List servers. /server list
 #-#
 #-# Channels
 #-#
-Join to a channel.</description>
+Join to a channel. /join #channel
+Leave current channel. /part</description>
         
         <dc:creator>Nicolas Guinet</dc:creator>
         
@@ -569,12 +563,12 @@ bold
 #-#
 #-# Code
 #-#
-4 space indent Blockquotes
- This is
+4 space indentBlockquotes
+This is
 a blockquote
- Nested
+Nested
 Blockquote
-  #-#
+#-#
 #-# Horizontal line
 #-# </description>
         
@@ -598,8 +592,7 @@ Blockquote
 #-# Commands
 #-#
 #-# General command structure
-mvn -P  
-#-# Simple stuff
+mvn -P #-# Simple stuff
 mvn help
 mvn compile
 mvn validate
@@ -758,14 +751,14 @@ E jump forwards to the end of a word (words can contain punctuation)</descriptio
         <atom:modified>Sat, 14 Nov 2020 19:07:13 +0100</atom:modified>
         <guid>https://guinetn.github.io/cheatsheets/database/code/language/yaml.cheatsheet/</guid>
         <description>#-# Collection indicators
-&amp;lsquo;? &#39; : Key indicator.
-&amp;lsquo;: &#39; : Value indicator.
-&amp;lsquo;- &#39; : Nested series entry indicator.
-&amp;lsquo;, &#39; : Separate in-line branch entries.
+&amp;lsquo;? &amp;rsquo; : Key indicator.
+&amp;lsquo;: &amp;rsquo; : Value indicator.
+&amp;lsquo;- &amp;rsquo; : Nested series entry indicator.
+&amp;lsquo;, &amp;rsquo; : Separate in-line branch entries.
 &amp;lsquo;[]&amp;rsquo; : Surround in-line series branch.
 &amp;lsquo;{}&amp;rsquo; : Surround in-line keyed branch.
 #-# Scalar indicators
-&#39;&amp;rsquo;&amp;rsquo;&amp;rsquo; : Surround in-line unescaped scalar (&amp;rsquo;&#39; escaped &amp;lsquo;).
+&amp;rsquo;&amp;rsquo;&amp;rsquo;&amp;rsquo; : Surround in-line unescaped scalar (&amp;rsquo;&amp;rsquo; escaped &amp;lsquo;).
 &amp;lsquo;&amp;quot;&amp;rsquo; : Surround in-line escaped scalar (see escape codes below).
 &amp;lsquo;|&amp;rsquo; : Block scalar indicator.
 &amp;lsquo;&amp;gt;&amp;rsquo; : Folded scalar indicator.</description>

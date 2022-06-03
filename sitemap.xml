@@ -1,195 +1,120 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://guinetn.github.io/</loc>
-    <lastmod>2020-11-14T19:07:13+01:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-06-03T19:07:13+01:00</lastmod>
+  </url><url>
+    <loc>https://guinetn.github.io/posts/rust/</loc>
+    <lastmod>2022-06-03T19:07:13+01:00</lastmod>
+  </url><url>
+    <loc>https://guinetn.github.io/posts/</loc>
+    <lastmod>2022-06-03T19:07:13+01:00</lastmod>
+  </url><url>
     <loc>https://guinetn.github.io/cheatsheets/database/code/paradigm/aop.cheatsheet/</loc>
     <lastmod>2020-11-14T19:07:13+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://guinetn.github.io/cheatsheets/database/misc/asciiart.cheatsheet/</loc>
     <lastmod>2020-11-14T19:07:13+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://guinetn.github.io/cheatsheets/database/code/language/assembler.cheatsheet/</loc>
     <lastmod>2020-11-14T19:07:13+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://guinetn.github.io/cheatsheets/database/code/language/bash.cheatsheet/</loc>
     <lastmod>2020-11-14T19:07:13+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://guinetn.github.io/cheatsheets/database/code/big-o-complexity.cheatsheet/</loc>
     <lastmod>2020-11-14T19:07:13+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://guinetn.github.io/cheatsheets/</loc>
     <lastmod>2020-11-14T19:07:13+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://guinetn.github.io/cheatsheets/database/code/language/cmd.cheatsheet/</loc>
     <lastmod>2020-11-14T19:07:13+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://guinetn.github.io/cheatsheets/database/code/language/css.cheatsheet/</loc>
     <lastmod>2020-11-14T19:07:13+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://guinetn.github.io/cheatsheets/database/ide/eclipse.cheatsheet/</loc>
     <lastmod>2020-11-14T19:07:13+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://guinetn.github.io/cheatsheets/database/code/language/freemarker.cheatsheet/</loc>
     <lastmod>2020-11-14T19:07:13+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://guinetn.github.io/cheatsheets/database/tools/version-control/git.cheatsheet/</loc>
     <lastmod>2020-11-14T19:07:13+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://guinetn.github.io/cheatsheets/database/tools/build-automation/gradle.cheatsheet/</loc>
     <lastmod>2020-11-14T19:07:13+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://guinetn.github.io/cheatsheets/database/code/language/groovy.cheatsheet/</loc>
     <lastmod>2020-11-14T19:07:13+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://guinetn.github.io/cheatsheets/database/server/hadoop.cheatsheet/</loc>
     <lastmod>2020-11-14T19:07:13+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://guinetn.github.io/cheatsheets/database/server/protocol/http.cheatsheet/</loc>
     <lastmod>2020-11-14T19:07:13+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://guinetn.github.io/cheatsheets/database/code/library/hystrix.cheatsheet/</loc>
     <lastmod>2020-11-14T19:07:13+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://guinetn.github.io/cheatsheets/database/chat/irssi.cheatsheet/</loc>
     <lastmod>2020-11-14T19:07:13+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://guinetn.github.io/cheatsheets/database/tools/issue-tracking/jira.cheatsheet/</loc>
     <lastmod>2020-11-14T19:07:13+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://guinetn.github.io/cheatsheets/database/code/language/markdown.cheatsheet/</loc>
     <lastmod>2020-11-14T19:07:13+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://guinetn.github.io/cheatsheets/database/tools/build-automation/maven.cheatsheet/</loc>
     <lastmod>2020-11-14T19:07:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://guinetn.github.io/posts/</loc>
-    <lastmod>2020-11-14T19:07:13+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://guinetn.github.io/science/welcome/</loc>
     <lastmod>2020-11-14T19:07:13+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://guinetn.github.io/cheatsheets/database/chat/skype.cheatsheet/</loc>
     <lastmod>2020-11-14T19:07:13+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://guinetn.github.io/cheatsheets/database/tools/terminal/tmux.cheatsheet/</loc>
     <lastmod>2020-11-14T19:07:13+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://guinetn.github.io/cheatsheets/database/os/ubuntu.cheatsheet/</loc>
     <lastmod>2020-11-14T19:07:13+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://guinetn.github.io/cheatsheets/database/ide/vim.cheatsheet/</loc>
     <lastmod>2020-11-14T19:07:13+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://guinetn.github.io/posts/welcome-copy/</loc>
     <lastmod>2020-11-14T19:07:13+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://guinetn.github.io/posts/welcome/</loc>
     <lastmod>2020-11-14T19:07:13+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://guinetn.github.io/cheatsheets/database/code/language/yaml.cheatsheet/</loc>
     <lastmod>2020-11-14T19:07:13+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://guinetn.github.io/guides/</loc>
     <lastmod>2020-01-19T15:43:38+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://guinetn.github.io/science/</loc>
     <lastmod>2020-01-19T15:43:38+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://guinetn.github.io/archive/</loc>
     <lastmod>2019-10-19T11:44:14+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://guinetn.github.io/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://guinetn.github.io/cheatsheets/database/local/readme/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://guinetn.github.io/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://guinetn.github.io/tags/index/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://guinetn.github.io/series/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://guinetn.github.io/tags/</loc>
   </url>
-  
 </urlset>

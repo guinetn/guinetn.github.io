@@ -19,9 +19,9 @@
 
 <script defer src="/js/lazysizes.min.498676c34eb225e85357ab0ce19c3c1244f3bd0bf595e5684d1b9d50ea4fbc42.js"></script>
 
-<script defer src="/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
+<script defer src="/js/helper/getParents.min.b75dda22e2d1c0e1e0574c7764bb95bec70c0fb0d4d5440339ba68c685d5a661.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.efa35f4c090622130b3f4cfae6971448b5ffb61c5f0a8f21cdfd157fa712abc4.js"></script>
+<script defer src="/js/helper/fadeinout.min.b1a8c6db3f3cc261756044570d21596f0f083625d41433dc9ac02aba5e53777b.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1355,7 +1355,7 @@
 <meta property="og:type" content="article">
 <meta property="og:description" content="Nicolas Guinet&#39;s blog">
 
-<meta name="generator" content="Hugo 0.78.1" />
+<meta name="generator" content="Hugo 0.100.1" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1394,7 +1394,7 @@
     "datePublished": "2020-11-14T19:07:13+01:00",
     "dateModified": "2020-11-14T19:07:13+01:00",
     "url" : "https://guinetn.github.io/cheatsheets/database/code/language/yaml.cheatsheet/",
-    "description": "#-# Collection indicators \u0026lsquo;? ' : Key indicator. \u0026lsquo;: ' : Value indicator. \u0026lsquo;- ' : Nested series entry indicator. \u0026lsquo;, ' : Separate in-line branch …",
+    "description": "#-# Collection indicators \u0026lsquo;? \u0026rsquo; : Key indicator. \u0026lsquo;: \u0026rsquo; : Value indicator. \u0026lsquo;- \u0026rsquo; : Nested series entry indicator. \u0026lsquo;, \u0026rsquo; : …",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://guinetn.github.io"
@@ -1721,21 +1721,21 @@
     <article class="single__contents" data-dir="ltr" data-ani="true">
       
       <p>#-# Collection indicators</p>
-<p>&lsquo;? ' : Key indicator.<br />
-&lsquo;: ' : Value indicator.<br />
-&lsquo;- ' : Nested series entry indicator.<br />
-&lsquo;, ' : Separate in-line branch entries.<br />
+<p>&lsquo;? &rsquo; : Key indicator.<br />
+&lsquo;: &rsquo; : Value indicator.<br />
+&lsquo;- &rsquo; : Nested series entry indicator.<br />
+&lsquo;, &rsquo; : Separate in-line branch entries.<br />
 &lsquo;[]&rsquo; : Surround in-line series branch.<br />
 &lsquo;{}&rsquo; : Surround in-line keyed branch.</p>
 <p>#-# Scalar indicators</p>
-<p>'&rsquo;&rsquo;&rsquo; : Surround in-line unescaped scalar (&rsquo;' escaped &lsquo;).<br />
+<p>&rsquo;&rsquo;&rsquo;&rsquo; : Surround in-line unescaped scalar (&rsquo;&rsquo; escaped &lsquo;).<br />
 &lsquo;&quot;&rsquo;  : Surround in-line escaped scalar (see escape codes below).<br />
 &lsquo;|&rsquo;  : Block scalar indicator.<br />
 &lsquo;&gt;&rsquo;  : Folded scalar indicator.<br />
-&lsquo;-&rsquo;  : Strip chomp modifier ('|-&rsquo; or &lsquo;&gt;-').<br />
-&lsquo;+&rsquo;  : Keep chomp modifier ('|+&rsquo; or &lsquo;&gt;+').<br />
-1-9  : Explicit indentation modifier ('|1&rsquo; or &lsquo;&gt;2&rsquo;).<br />
-# Modifiers can be combined ('|2-', &lsquo;&gt;+1&rsquo;).</p>
+&lsquo;-&rsquo;  : Strip chomp modifier (&rsquo;|-&rsquo; or &lsquo;&gt;-&rsquo;).<br />
+&lsquo;+&rsquo;  : Keep chomp modifier (&rsquo;|+&rsquo; or &lsquo;&gt;+&rsquo;).<br />
+1-9  : Explicit indentation modifier (&rsquo;|1&rsquo; or &lsquo;&gt;2&rsquo;).<br />
+# Modifiers can be combined (&rsquo;|2-&rsquo;, &lsquo;&gt;+1&rsquo;).</p>
 <p>#-# Alias indicators</p>
 <p>&lsquo;&amp;&rsquo;  : Anchor property.<br />
 &lsquo;*&rsquo;  : Alias indicator.</p>
@@ -1745,13 +1745,13 @@
 &lsquo;!foo&rsquo;  : Primary (by convention, means a local &ldquo;!foo&rdquo; tag).<br />
 &lsquo;!!foo&rsquo; : Secondary (by convention, means &ldquo;tag:yaml.org,2002:foo&rdquo;).<br />
 &lsquo;!h!foo&rsquo;: Requires &ldquo;%TAG !h! <prefix>&rdquo; (and then means &ldquo;<prefix>foo&rdquo;).<br />
-&lsquo;!<foo>': Verbatim tag (always means &ldquo;foo&rdquo;).</p>
+&lsquo;!<foo>&rsquo;: Verbatim tag (always means &ldquo;foo&rdquo;).</p>
 <p>#-# Document indicators</p>
 <p>&lsquo;%&rsquo;  : Directive indicator.<br />
-&lsquo;&mdash;': Document header.<br />
-&lsquo;&hellip;': Document terminator.</p>
+&lsquo;&mdash;&rsquo;: Document header.<br />
+&lsquo;&hellip;&rsquo;: Document terminator.</p>
 <p>#-# Misc indicators</p>
-<p>' #&rsquo; : Throwaway comment indicator.<br />
+<p>&rsquo; #&rsquo; : Throwaway comment indicator.<br />
 &lsquo;`@&rsquo; : Both reserved for future use.</p>
 <p>#-# Special keys</p>
 <p>&lsquo;=&rsquo;  : Default &ldquo;value&rdquo; mapping key.<br />
@@ -1781,10 +1781,10 @@ Base 64 binary value.</p>
 </dl>
 <p>#-# Escape codes:<br />
 Numeric   : { &ldquo;\x12&rdquo;: 8-bit, &ldquo;\u1234&rdquo;: 16-bit, &ldquo;\U00102030&rdquo;: 32-bit }<br />
-Protective: { &ldquo;\&quot;: &lsquo;', &ldquo;: &lsquo;&quot;&rsquo;, &ldquo;\ &ldquo;: ' &lsquo;, &ldquo;&lt;TAB&gt;&quot;: TAB }<br />
+Protective: { &ldquo;\&rdquo;: &lsquo;', &ldquo;: &lsquo;&rdquo;&rsquo;, &ldquo;\ &ldquo;: &rsquo; &lsquo;, &ldquo;&lt;TAB&gt;&rdquo;: TAB }<br />
 C         : { &ldquo;\0&rdquo;: NUL, &ldquo;\a&rdquo;: BEL, &ldquo;\b&rdquo;: BS, &ldquo;\f&rdquo;: FF, &ldquo;\n&rdquo;: LF, &ldquo;\r&rdquo;: CR,<br />
 &ldquo;\t&rdquo;: TAB, &ldquo;\v&rdquo;: VTAB }<br />
-Additional: { &ldquo;\e&rdquo;: ESC, &ldquo;_&quot;: NBSP, &ldquo;\N&rdquo;: NEL, &ldquo;\L&rdquo;: LS, &ldquo;\P&rdquo;: PS }</p>
+Additional: { &ldquo;\e&rdquo;: ESC, &ldquo;_&rdquo;: NBSP, &ldquo;\N&rdquo;: NEL, &ldquo;\L&rdquo;: LS, &ldquo;\P&rdquo;: PS }</p>
 
     </article>
     
@@ -2211,7 +2211,7 @@ Additional: { &ldquo;\e&rdquo;: ESC, &ldquo;_&quot;: NBSP, &ldquo;\N&rdquo;: NEL
 </div>
 
 
-<script defer src="/js/swipe.min.b4b82839155519d9ca67746615a4c86ccbc1061c196fe6d8aa26e4fe22902718.js"></script>
+<script defer src="/js/swipe.min.b5af2be70ffc9ba2e83412609aa18b5b025c69399f9e1dce09d444a636a38cd0.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
@@ -3195,7 +3195,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 
             <p class="caption">
                 
-                    ©2020, All Rights Reserved
+                    ©2022, All Rights Reserved
                 
             </p>
         

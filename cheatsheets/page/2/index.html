@@ -19,9 +19,9 @@
 
 <script defer src="/js/lazysizes.min.498676c34eb225e85357ab0ce19c3c1244f3bd0bf595e5684d1b9d50ea4fbc42.js"></script>
 
-<script defer src="/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
+<script defer src="/js/helper/getParents.min.b75dda22e2d1c0e1e0574c7764bb95bec70c0fb0d4d5440339ba68c685d5a661.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.efa35f4c090622130b3f4cfae6971448b5ffb61c5f0a8f21cdfd157fa712abc4.js"></script>
+<script defer src="/js/helper/fadeinout.min.b1a8c6db3f3cc261756044570d21596f0f083625d41433dc9ac02aba5e53777b.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1357,7 +1357,7 @@
 <meta property="og:type" content="website">
 <meta property="og:description" content="Nicolas Guinet&#39;s blog">
 
-<meta name="generator" content="Hugo 0.78.1" />
+<meta name="generator" content="Hugo 0.100.1" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1838,21 +1838,18 @@ groupKey Class name of annotated method Used for grouping together commands such
             #-#
 #-# Nick
 #-#
-Register current nickname. /msg nickserv register  you@example.com
-Indent your nickname. /msg nickserv identify 
-Set current nickname. /nick vrachieru
+Register current nickname. /msg nickserv register you@example.com
+Indent your nickname. /msg nickserv identify Set current nickname. /nick vrachieru
 #-#
 #-# Networks / Servers
 #-#
-Bind nickname with network. /network add -nick  
-Connect to the network. /connect 
-List networks. /network list
-Bind server with network. /server add -auto -network   
-List servers. /server list
+Bind nickname with network. /network add -nick Connect to the network. /connect List networks. /network list
+Bind server with network. /server add -auto -network List servers. /server list
 #-#
 #-# Channels
 #-#
-Join to a channel.
+Join to a channel. /join #channel
+Leave current channel. /part
           
         </div>
       </div>
@@ -1963,12 +1960,12 @@ bold
 #-#
 #-# Code
 #-#
-4 space indent Blockquotes
- This is
+4 space indentBlockquotes
+This is
 a blockquote
- Nested
+Nested
 Blockquote
-  #-#
+#-#
 #-# Horizontal line
 #-# 
           
@@ -2007,8 +2004,7 @@ Blockquote
 #-# Commands
 #-#
 #-# General command structure
-mvn -P  
-#-# Simple stuff
+mvn -P #-# Simple stuff
 mvn help
 mvn compile
 mvn validate
@@ -2242,14 +2238,14 @@ E jump forwards to the end of a word (words can contain punctuation)
         <div class="summary-classic__text p2">
           
             #-# Collection indicators
-&lsquo;? ' : Key indicator.
-&lsquo;: ' : Value indicator.
-&lsquo;- ' : Nested series entry indicator.
-&lsquo;, ' : Separate in-line branch entries.
+&lsquo;? &rsquo; : Key indicator.
+&lsquo;: &rsquo; : Value indicator.
+&lsquo;- &rsquo; : Nested series entry indicator.
+&lsquo;, &rsquo; : Separate in-line branch entries.
 &lsquo;[]&rsquo; : Surround in-line series branch.
 &lsquo;{}&rsquo; : Surround in-line keyed branch.
 #-# Scalar indicators
-'&rsquo;&rsquo;&rsquo; : Surround in-line unescaped scalar (&rsquo;' escaped &lsquo;).
+&rsquo;&rsquo;&rsquo;&rsquo; : Surround in-line unescaped scalar (&rsquo;&rsquo; escaped &lsquo;).
 &lsquo;&quot;&rsquo; : Surround in-line escaped scalar (see escape codes below).
 &lsquo;|&rsquo; : Block scalar indicator.
 &lsquo;&gt;&rsquo; : Folded scalar indicator.
@@ -2650,7 +2646,7 @@ E jump forwards to the end of a word (words can contain punctuation)
                 
             <p class="caption">
                 
-                    ©2020, All Rights Reserved
+                    ©2022, All Rights Reserved
                 
             </p>
         
